@@ -1,0 +1,33 @@
+{
+    "name": "itsaninho/filemanager",
+    "description": "create log file",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Itsaninho",
+            "email": "Itsaninho@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5",
+        "tymon/jwt-auth": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Itsaninho\\Filemanager\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Itsaninho\\Filemanager\\FilemanagerServiceProvider"
+            ],
+            "aliases": {
+                "Filemanager": "Itsaninho\\Filemanager\\Facades\\Filemanager"
+            }
+        }
+    }
+}
