@@ -5,13 +5,13 @@ Filemanager package for Laravel
 To install, run the following in your project directory:
 
 ``` bash
-$ composer require div-art/filemanager
+$ composer require itsaninho/filemanager
 ```
 
 Then in `config/app.php` add the following to the `providers` array:
 
 ```
-\Divart\Filemanager\FilemanagerServiceProvider::class,
+\Itsaninho\Filemanager\FilemanagerServiceProvider::class,
 'Tymon\JWTAuth\Providers\JWTAuthServiceProvider',
 ```
 
